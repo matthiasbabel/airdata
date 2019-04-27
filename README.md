@@ -1,5 +1,6 @@
 # Air Quality Module
-## IOTA-Network
+## Set up
+### IOTA-Network
 For testing:
 Set up private IOTA-Network
 https://github.com/iotaledger/compass 
@@ -58,7 +59,7 @@ docker run -d -t --net host --rm -e DOCKER_IRI_REMOTE_LIMIT_API="" -v $scriptdir
        --max-depth 1000 $@ \
        -c /iri/conf/iota.ini
 ```
-## MongoDB
+### MongoDB
 Install MongoDB for organizing the addresses. 
 https://docs.mongodb.com/manual/installation/#tutorial-installation
 
@@ -69,15 +70,16 @@ Node.js und NPM
 
 The following steps must be executed on the console in the prototyp folder
 
-1. Run ```npm install``` in ./frontend and ./iotaHub
+1. Run ```npm install``` in ./frontend and ./iota
 2. Run the IOTA-Node
-2. If your Node is running on other ports than set before, change it also in ./iotaHub/config.json
-3. Start the IOTA-Hub ```cd iotaHub && node server.js ```
+2. If your Node is running on other ports than set before, change it also in ./iota/config.json
+3. Start the IOTA-Hub ```cd iota && node server.js ```
+3. Set your the IP of your IOTA-Node in the ./index.html, if you use a IOTA-Node, wich is not set up like shown, the seed has also to be updated
 4. Start the Frontend ```cd frontend && http-server ```
 
 
 
-### Usage
+## Usage
 Use the web based interface on http://localhost:8080
 
 

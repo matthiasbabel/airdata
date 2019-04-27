@@ -68,7 +68,11 @@
 
   <script>
     $("#load").hide();
-    let ip = "192.168.1.26";
+    // ###################
+    //Place your IP here
+    let ip = "localhost";
+
+
     let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
     scanner.addListener('scan', function (content) {
       if (content.charAt(0) == '"' && content.charAt(content.length - 1 == '"'))

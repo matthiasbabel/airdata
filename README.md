@@ -67,7 +67,7 @@ Node.js und NPM
 
 ### Initialise 
 
-Folgende Punkte müssen auf der Konsole im Ordner prototyp ausgeführt werden.
+The following steps must be executed on the console in the prototyp folder
 
 1. Run ```npm install``` in ./frontend and ./iotaHub
 2. Run the IOTA-Node
@@ -79,4 +79,19 @@ Folgende Punkte müssen auf der Konsole im Ordner prototyp ausgeführt werden.
 
 ### Usage
 Use the web based interface on http://localhost:8080
+
+
+## Hardware Requirements
+* ESP32S NodeMCU
+* 2 18650 li-ion
+* SDS011 air particulate matter sensor
+* DHT11 temperature & humidity sensor
+* LM2596 DC-DC Step down module
+
+
+
+## ESP32 Code
+To play the Esp32s board the Arduino IDE is necessary. After the board nd the libraries has been added to the IDE (see tutorials on the internet), the code can be uploaded to the ESP by pressing the boot button and uploading the scetch. 
+
+
 

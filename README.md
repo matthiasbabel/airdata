@@ -88,11 +88,10 @@ Use the web based interface on http://localhost:8080
 * DHT11 temperature & humidity sensor
 * LM2596 DC-DC Step down module
 
-The components are wired as follows
 
 
 ## ESP32 Code
-To play the Esp32s board the Arduino IDE is necessary. After the board has been added to the IDE (see tutorials on the internet), the code can be uploaded to the ESP by pressing the boot button and uploading the scetch. 
+To play the Esp32s board the Arduino IDE is necessary. After the board nd the libraries has been added to the IDE (see tutorials on the internet), the code can be uploaded to the ESP by pressing the boot button and uploading the scetch. 
 
 
 
